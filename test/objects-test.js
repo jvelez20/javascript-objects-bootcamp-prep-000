@@ -36,7 +36,7 @@ describe('objects', () => {
   })
 
   describe('removeFromPlaylist(playlist, artistName)', () => {
-    it('removes `artistName` from `playlist`', () => {
+    console.log('removes `artistName` from `playlist`', () => {
       removeFromPlaylist(playlist, 'Slowdive')
 
       expect(playlist).
